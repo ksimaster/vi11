@@ -10,7 +10,7 @@ namespace ImGif
         private SpriteRenderer _spriteRenderer;
         private RawImage _rawImage;
         private Image _image;
-        private SpriteArray _sprites;
+        public SpriteArray _sprites;
 
         public GifData data;
 
