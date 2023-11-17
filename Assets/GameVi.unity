@@ -6254,20 +6254,6 @@ MonoBehaviour:
   - {fileID: 662325718}
   - {fileID: 327089258}
   - {fileID: 1011974351}
-  - {fileID: 1378266854}
-  - {fileID: 1099868116}
-  - {fileID: 1507773380}
-  - {fileID: 1467432400}
-  - {fileID: 1076519465}
-  - {fileID: 1018466180}
-  - {fileID: 1547326369}
-  - {fileID: 534840689}
-  - {fileID: 1155993779}
-  - {fileID: 1474752779}
-  - {fileID: 2033669617}
-  - {fileID: 844963854}
-  - {fileID: 1864335789}
-  - {fileID: 1926988952}
   data:
   - {fileID: 11400000, guid: f6634b29d8ed9a5479857748502237fc, type: 2}
   - {fileID: 11400000, guid: c973df9ec35a2f247b72181becf1c293, type: 2}
@@ -6304,22 +6290,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b4541b74db6a07b46b1d19d88ff820bc, type: 2}
   - {fileID: 11400000, guid: daaa863c781553f45abc332a764db8d1, type: 2}
   - {fileID: 11400000, guid: 9260e21b6559d8a4694932a70b838f95, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 0dc0fd38bf4e0dc41bca8907c531914b, type: 2}
+  - {fileID: 11400000, guid: 2711af9c773c9cd48aa42b8411a4311e, type: 2}
+  - {fileID: 11400000, guid: 8f3cbaab8883fdb40bce508668e616fb, type: 2}
   title: {fileID: 511808038}
 --- !u!4 &2026676910
 Transform:
