@@ -1888,7 +1888,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -6206,7 +6206,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1941415517
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6986,7 +6986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   renderTarget: 0
-  data: {fileID: 11400000, guid: a5e2bf043d31c7842acb6559733c473c, type: 2}
+  data: {fileID: 11400000, guid: bd1bcff432a06c549bd3cd10b781361a, type: 2}
   frameDelay: 5
   playOnAwake: 1
   loopTimes: 0
