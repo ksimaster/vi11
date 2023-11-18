@@ -6540,7 +6540,7 @@ MonoBehaviour:
   - {fileID: 327089258}
   - {fileID: 1011974351}
   data:
-  - {fileID: 11400000, guid: bd1bcff432a06c549bd3cd10b781361a, type: 2}
+  - {fileID: 11400000, guid: b651e7185bf69bf47bf047d70bd73fce, type: 2}
   - {fileID: 11400000, guid: f6634b29d8ed9a5479857748502237fc, type: 2}
   - {fileID: 11400000, guid: c973df9ec35a2f247b72181becf1c293, type: 2}
   - {fileID: 11400000, guid: 8bb2aa10c0417e444a8cf1c33ed0318d, type: 2}
@@ -6986,7 +6986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   renderTarget: 0
-  data: {fileID: 11400000, guid: bd1bcff432a06c549bd3cd10b781361a, type: 2}
+  data: {fileID: 11400000, guid: b651e7185bf69bf47bf047d70bd73fce, type: 2}
   frameDelay: 5
   playOnAwake: 1
   loopTimes: 0
