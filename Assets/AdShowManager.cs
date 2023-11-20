@@ -12,7 +12,7 @@ public class AdShowManager : MonoBehaviour
     [SerializeField] [Min(60)] private int timerForAd; //>60
     [SerializeField] private GameObject timerObj; // Канвас на котором весит текст с таймером
     [SerializeField] private TMP_Text timerText; // TextMeshPro элемент на канвасе(текст о предупреждении)
-
+    [SerializeField] private GameObject panel;
     private void Awake()
     {
         timerText.text = null;
@@ -33,6 +33,7 @@ public class AdShowManager : MonoBehaviour
 
     IEnumerator AdShowHelper()
     {
+        panel.SetActive(true);
         //timerObj.SetActive(true);
         if (YandexGame.EnvironmentData.language == "ru")
         {
@@ -75,6 +76,7 @@ public class AdShowManager : MonoBehaviour
         yield return new WaitForSeconds(1);
         StartCoroutine(AdShow());
         YandexGame.FullscreenShow();
+        panel.SetActive(false);
         timerText.text = null;
 
 
