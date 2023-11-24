@@ -3055,6 +3055,7 @@ RectTransform:
   - {fileID: 2127063028}
   - {fileID: 298546763}
   - {fileID: 1582856351}
+  - {fileID: 1490215554}
   m_Father: {fileID: 1645469703}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8076,6 +8077,100 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474752779}
   m_CullTransparentMesh: 1
+--- !u!1 &1490215553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1490215554}
+  - component: {fileID: 1490215557}
+  - component: {fileID: 1490215556}
+  - component: {fileID: 1490215555}
+  m_Layer: 5
+  m_Name: 100
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1490215554
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490215553}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 446086321}
+  m_RootOrder: 99
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 804.3575, y: -361.305}
+  m_SizeDelta: {x: 1608.715, y: 722.61}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1490215555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490215553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621f712f9556c74459cf6a5e634bac00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderTarget: 0
+  data: {fileID: 11400000, guid: a5e2bf043d31c7842acb6559733c473c, type: 2}
+  frameDelay: 5
+  playOnAwake: 1
+  loopTimes: 0
+--- !u!114 &1490215556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490215553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1490215557
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490215553}
+  m_CullTransparentMesh: 1
 --- !u!1 &1507773380
 GameObject:
   m_ObjectHideFlags: 0
@@ -10777,72 +10872,72 @@ MonoBehaviour:
   - {fileID: 340921020}
   - {fileID: 1881875839}
   - {fileID: 1078760001}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 583435226}
+  - {fileID: 888205569}
+  - {fileID: 1011974351}
+  - {fileID: 1378266854}
+  - {fileID: 1099868116}
+  - {fileID: 1507773380}
+  - {fileID: 1467432400}
+  - {fileID: 1076519465}
+  - {fileID: 1018466180}
+  - {fileID: 1547326369}
+  - {fileID: 534840689}
+  - {fileID: 1155993779}
+  - {fileID: 1474752779}
+  - {fileID: 2033669617}
+  - {fileID: 844963854}
+  - {fileID: 1864335789}
+  - {fileID: 104429005}
+  - {fileID: 1234837606}
+  - {fileID: 357226672}
+  - {fileID: 2030642111}
+  - {fileID: 619536440}
+  - {fileID: 435732105}
+  - {fileID: 1337221989}
+  - {fileID: 264920676}
+  - {fileID: 608382331}
+  - {fileID: 896298708}
+  - {fileID: 783139434}
+  - {fileID: 1225541058}
+  - {fileID: 1017492345}
+  - {fileID: 776381320}
+  - {fileID: 1631637713}
+  - {fileID: 1890631042}
+  - {fileID: 177413197}
+  - {fileID: 868191943}
+  - {fileID: 741849799}
+  - {fileID: 1821563236}
+  - {fileID: 1243505020}
+  - {fileID: 178435760}
+  - {fileID: 112774058}
+  - {fileID: 586189648}
+  - {fileID: 162081442}
+  - {fileID: 1380699062}
+  - {fileID: 1655232668}
+  - {fileID: 472316565}
+  - {fileID: 317270543}
+  - {fileID: 41309363}
+  - {fileID: 259924428}
+  - {fileID: 1473983316}
+  - {fileID: 264501651}
+  - {fileID: 2051996001}
+  - {fileID: 1448203654}
+  - {fileID: 286866212}
+  - {fileID: 1707214684}
+  - {fileID: 2115650856}
+  - {fileID: 1141928930}
+  - {fileID: 1603626847}
+  - {fileID: 704009897}
+  - {fileID: 256294598}
+  - {fileID: 1008001374}
+  - {fileID: 31385961}
+  - {fileID: 1265479528}
+  - {fileID: 1458348451}
+  - {fileID: 2127063027}
+  - {fileID: 298546762}
+  - {fileID: 1582856350}
+  - {fileID: 1490215553}
   data:
   - {fileID: 11400000, guid: f6634b29d8ed9a5479857748502237fc, type: 2}
   - {fileID: 11400000, guid: 350bae9511f903745a97be4ff97ffe6c, type: 2}
